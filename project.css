@@ -1,0 +1,185 @@
+
+.contact h1{
+    color: white;
+    font-size: 35px;
+}
+#projec{
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+#projec:hover{
+    color:goldenrod;
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+  
+}
+footer{ 
+    justify-content: space-between;
+    background-color: #353535;
+    display: flex;
+    padding-bottom: 30px;
+   
+}
+ul li {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+nav{
+    display: flex;
+    background-color: #607993;
+    padding-right: 41px;
+}
+nav h1{
+    margin-left: 5%;
+    color: white;
+    
+}
+ul li a:hover{
+    color:goldenrod;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top:10px;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    
+}
+.contact{
+    background-color:#353535 ;
+    padding-left: 20px;
+    font-size: 20px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: 70%;
+    padding-bottom: 1px;  
+}
+.test{
+     padding-left:30px;
+    
+}
+.design{
+    padding-top: 40px;;
+}
+h3{
+    color: yellow;
+    padding-right: 20px;
+   
+}
+.test1 img{
+    -webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin-right: 20px;
+margin-left:20px;
+}
+.test1 img:hover {
+    -webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+body{
+    background-color:#99C5D2;
+}
+h2{
+    color: white;
+    margin-left: 60px;
+    padding-top: 12px;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+.pro{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 110px ;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+.pro p{
+    font-size: 16px;
+    background-color:#2F375B; 
+    color: white;
+    padding:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 250px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pro h3{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+    width:250px;
+    background-color:#2F375B;
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.pro p, .pro h6, .pro h3, .pro a,.democode {
+    padding: 10px;
+}
+.mouna{
+    display: flex;
+    justify-content: space-around;   
+    padding-bottom:20px;
+}
+.democode a{
+    border: white solid 1px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.democode a:hover{
+    
+    color: goldenrod;
+    border: solid goldenrod 0.5px;
+    border-radius: 6px;
+}
+.htcss{
+    color:gray;}
